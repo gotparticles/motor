@@ -7,7 +7,7 @@ Motor1A = 17
  
 GPIO.setup(Motor1A,GPIO.OUT)
 
-print "Turning motor on"
+print("Turning motor on")
 GPIO.output(Motor1A,GPIO.HIGH)
  
 sleep(2)
