@@ -5,10 +5,10 @@ GPIO.setmode(GPIO.BOARD)
  
 Motor1A = 17
  
-GPIO.setup(Motor1A)
+GPIO.setup(Motor1A,right)
 
 print("Turning motor on")
-GPIO.output(Motor1A)
+GPIO.output(Motor1A,right)
  
 sleep(2)
 
